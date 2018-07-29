@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/mediaPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_media_play"/>
+
+    <ImageButton
+        android:id="@+id/mediaStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"/>
+
+    <ImageButton
+        android:id="@+id/mediaGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_directions"/>
+
+    <ToggleButton
+        android:id="@+id/mediaRepeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_revert"/>
+
+    <EditText
+        android:id="@+id/edtGo"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
